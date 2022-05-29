@@ -1,0 +1,17 @@
+﻿<hc:Window x:Class="EconomyGame.View.MainContainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        xmlns:mainContainer="clr-namespace:EconomyGame.ViewModels.MainContainer" d:DataContext="{d:DesignInstance Type=mainContainer:MainViewModel}"
+        Title="{Binding Path=Title}" 
+        WindowStartupLocation="CenterScreen"
+        ShowTitle="True"
+        Height="450" 
+        Width="800">
+    <Grid>
+
+    </Grid>
+</hc:Window>
